@@ -8,6 +8,7 @@ body {
   background-image: url(imagem-fundo.png);
   background-size: cover;
   padding: 20px;
+  overflow: hidden;
 }
 
 form {
