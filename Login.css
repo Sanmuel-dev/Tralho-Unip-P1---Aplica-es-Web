@@ -1,0 +1,65 @@
+body {
+  font-family: "arial";
+  color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(imagem-fundo.png);
+  background-size: cover;
+  padding: 20px;
+}
+
+form {
+  background-image: image(imagem-fundo);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+h1 {
+  font-size: 24px;
+  color: white ;
+}
+
+button {
+  padding: 10px;
+  align-self: center;
+  width: 160px;
+  background-image: linear-gradient(#0987c2, #555d61);
+  border: solid 1px #010202;
+  font-size: 16px;
+  color: white;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+a {
+  color: #009dff;
+}
+
+.barra-horizontal {
+  background-color: #7a1c76;
+  height: 5px;
+  width: 210px;
+}
+
+.campo-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.lembrar-me {
+  display: flex;
+  gap: 5px;
+}
+
+
+.esqueceu-senha {
+  text-align: center;
+}
