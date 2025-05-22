@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="formpagamento.css">
+<body>
  <img class="logo" src="hbo-max-logo-0.png" alt="logo">
- <div class="paymentdetails">
-  <form>
+  <form class="paymentdetails">
    <label class="inputnames">Nome</label>
    <input type="text" id="name" required>
     <br>
@@ -11,24 +11,25 @@
    <input type="text" id="surname" required>
     <br>
    <label class="inputnames">Idade</label>
-   <input type="number" id="age" required>
+   <input type="number" id="age" min="13" max="99" required>
     <br>
    <label class="inputnames">Número de cartão de crédito</label>
-   <input type="text" id="ccnumber" required>
+   <input type="number" id="ccnumber" min="1000000000000001" max="9999999999999999" required>
     <br>
    <label class="inputnames">CPF</label>
    <input type="number" id="cpf" min="10000000001" max="99999999999" required>
     <br>
    <label class="inputnames">Plano</label>
-   <select class="inputnames" type="select" id="subscription" required>
-    <br>
+   <select type="select" id="subscription" required>
      <option id="basicocomads">Básico com ads</option>
      <option id="intermed">Intermediário</option>
      <option id="premium">Premium</option>
     </select>
     <br>
    <input type="checkbox" required>
-   <label>Ao clicar nesta caixa, você certifica que concorda com as Políticas de Privacidade do nosso site.</label>
+   <label class="inputnames">Ao clicar nesta caixa, você certifica que concorda com as Políticas de Privacidade do nosso site.</label>
+    <br>
+   <button class="submitpayment" onclick="location.href='conclusao.html'">Confirmar Pagamento</button>
   </form>
- </div>
+</body>
 </html>
