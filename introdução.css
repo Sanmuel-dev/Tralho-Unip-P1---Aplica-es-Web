@@ -3,7 +3,7 @@
 }
 
 #rodape{
-    background-image: url(Banner-Filmes.png);
+    background-image: url(imagem-fundo.png);
     background-color: #1c1c1c;
     color: white;
     text-align: center;
@@ -30,8 +30,6 @@
     font-family: arial;
     background-image: url(imagem-fundo.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     
 }
 
