@@ -2,17 +2,6 @@
   width: 150px;
 }
 
-#rodape{
-    background-image: url(imagem-fundo.png);
-    background-color: #1c1c1c;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed; 
-    bottom: 0; 
-    width: 100%; 
-}
-
 .button {
     background: radial-gradient(circle, rgb(103, 168, 243), rgb(231, 7, 231));
     border: none;
@@ -30,6 +19,8 @@
     font-family: arial;
     background-image: url(imagem-fundo.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 
