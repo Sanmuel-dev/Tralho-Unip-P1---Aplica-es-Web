@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="formpagamento.css">
+<body>
+ <img class="logo" src="hbo-max-logo-0.png" alt="logo">
+  <form class="paymentdetails" method="get" action="conclusao.html">
+   <label class="inputnames">Nome</label>
+   <input type="text" name="name" required>
+    <br>
+   <label class="inputnames">Sobrenome</label>
+   <input type="text" name="surname" required>
+    <br>
+   <label class="inputnames">Idade</label>
+   <input type="number" name="age" min="13" max="99" required>
+    <br>
+   <label class="inputnames">Número de cartão de crédito</label>
+   <input type="number" name="ccnumber" min="1000000000000001" max="9999999999999999" required>
+    <br>
+   <label class="inputnames">CPF</label>
+   <input type="number" name="cpf" min="10000000001" max="99999999999" required>
+    <br>
+   <label class="inputnames">Plano</label>
+   <select type="select" name="subscription">
+     <option>Básico com ads</option>
+     <option>Intermediário</option>
+     <option>Premium</option>
+    </select>
+    <br>
+   <input type="checkbox" required>
+   <label class="inputnames">Ao clicar nesta caixa, você certifica que concorda com as Políticas de Privacidade do nosso site.</label>
+    <br>
+   <button class="submitpayment">Confirmar Pagamento</button>
+  </form>
+  <footer>
+    <p1>₢ Copyright 2025 HBO Max, todos os direitos reservados.</p1>
+     <br>
+    <p2 onclick="location.href='Introdução.html'">Página Inicial</p2>
+  </footer>
+</body>
+</html>
