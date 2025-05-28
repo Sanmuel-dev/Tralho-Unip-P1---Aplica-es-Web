@@ -2,12 +2,37 @@
   width: 150px;
 }
 
+#rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+
 .button {
     background: radial-gradient(circle, rgb(103, 168, 243), rgb(231, 7, 231));
+    color:white;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 16px;
+}
+
+.assine {
+    background: radial-gradient(circle, rgb(103, 168, 243), rgb(231, 7, 231));
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.assine:hover {
+    transform: scale(1.050);
+    background: radial-gradient(circle, rgb(103, 168, 243) 50%, rgb(231, 7, 231));
 }
 
 .button:hover {
@@ -21,7 +46,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+}
+
+.centro {
+    color:white;
+    background-image:url(banner\ de\ fundo.jpg);
+    background-size: cover;
+    padding: auto;
+    padding-top: 300px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #header {
