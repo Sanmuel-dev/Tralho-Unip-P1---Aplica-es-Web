@@ -69,3 +69,12 @@ body{
     color: black;
     font-size: 15px;
 }
+footer {
+    padding:10px;
+    position:fixed;
+    width:100%;
+    bottom:0;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
