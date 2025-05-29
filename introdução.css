@@ -14,7 +14,6 @@
 
 .button {
     background: radial-gradient(circle, rgb(103, 168, 243), rgb(231, 7, 231));
-    color:white;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -23,7 +22,6 @@
 
 .assine {
     background: radial-gradient(circle, rgb(103, 168, 243), rgb(231, 7, 231));
-    color:white;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -33,11 +31,13 @@
 .assine:hover {
     transform: scale(1.050);
     background: radial-gradient(circle, rgb(103, 168, 243) 50%, rgb(231, 7, 231));
+    color:white;
 }
 
 .button:hover {
     transform: scale(1.050);
     background: radial-gradient(circle, rgb(103, 168, 243) 50%, rgb(231, 7, 231));
+    color:white;
 }
 
 #body {
